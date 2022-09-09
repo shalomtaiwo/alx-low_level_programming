@@ -9,13 +9,13 @@ int main(void)
 	int lower;
 	int upper;
 
-	for(lower = 97; lower <= 122; ++lower)
+	for (lower = 97; lower <= 122; ++lower)
 	{
-		printf("%c ", lower);
+		printf("%c", lower);
 	}
-	for(upper = 65; upper <= 90; ++upper)
+	for (upper = 65; upper <= 90; ++upper)
 	{
-		printf("%c ", upper);
+		printf("%c", upper);
 	}
 	printf("\n");
 	return (0);
