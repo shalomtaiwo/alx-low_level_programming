@@ -4,8 +4,16 @@
 *Programming is like building a multilingual puzzle
 *followed by a new line.
 */
-int main (void)
+int main(void)/*Main */
+/*
+ *Using Puts
+ *The return
+ */
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+/*
+ *No sspace
+ *Space
+ */
+puts("\"Programming is like building a multilingual puzzle");/*Use Puts*/
+return (0);
 }
