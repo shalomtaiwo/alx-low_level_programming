@@ -10,7 +10,10 @@ int main(void)
 
 	for (lower = 97; lower <= 122; ++lower)
 	{
-		printf("%c", lower);
+		if ((lower != 101) && (lower != 113))
+		{
+			printf("%c", lower);
+		}
 	}
 	printf("\n");
 	return (0);
