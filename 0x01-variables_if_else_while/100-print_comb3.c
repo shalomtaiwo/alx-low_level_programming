@@ -10,7 +10,7 @@ int main(void)
 
 	for (lower = 0; lower < 90; lower++)
 	{
-		putchar(lower / 10 + '0');
+		putchar((lower / 10) + '0');
 		putchar((lower % 10) + '1');
 		if (lower != 89)
 		{
