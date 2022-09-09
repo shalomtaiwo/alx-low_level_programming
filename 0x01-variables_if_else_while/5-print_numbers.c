@@ -8,9 +8,9 @@ int main(void)
 {
 	int lower;
 
-	for (lower = 0; lower <= 10; ++lower)
+	for (lower = 0; lower < 10; ++lower)
 	{
-			printf("%d", lower);
+		printf("%d", lower);
 	}
 	printf("\n");
 	return (0);
