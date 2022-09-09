@@ -6,13 +6,16 @@
  */
 int main(void)
 {
-	for (int c = 97; c <= 122; ++c)
+	int lower;
+	int upper;
+
+	for(lower = 97; lower <= 122; ++lower)
 	{
-		printf("%c ", c);
+		printf("%c ", lower);
 	}
-	for (int c = 65; c <= 90; ++c)
+	for(upper = 65; upper <= 90; ++upper)
 	{
-		printf("%c ", c);
+		printf("%c ", upper);
 	}
 	printf("\n");
 	return (0);
