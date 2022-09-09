@@ -8,16 +8,16 @@ int main(void)
 {
 	char lower;
 
-	for (lower = '0'; lower <= '9'; lower++)
+	for (lower = 0; lower < 10; lower++)
 	{
-		if (lower != '9')
+		if (lower != 9)
 		{
-			putchar(lower);
-			putchar(',');
+			putchar(lower % 10 + '0');
+			putchar(',' + ' ');
 		}
 		else
 		{
-			putchar(lower);
+			putchar(lower % 10 + '0');
 		}
 	}
 	putchar('\n');
