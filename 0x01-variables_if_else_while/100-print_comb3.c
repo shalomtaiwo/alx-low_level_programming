@@ -15,7 +15,6 @@ int main(void)
 		{
 			putchar((lower1 % 10) + '0');
 			putchar((lower2 % 10) + '0');
-			
 			if (lower1 == 8 && lower2 == 9)
 				continue;
 
