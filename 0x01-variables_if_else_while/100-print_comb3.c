@@ -13,7 +13,6 @@ int main(void)
 	{
 		for (lower2 = lower1 + 1; lower2 < 10; lower2++)
 		{
-		
 			putchar((lower1 % 10) + '0');
 			putchar((lower2 % 10) + '0');
 			
@@ -22,7 +21,6 @@ int main(void)
 
 			putchar(',');
 			putchar(' ');
-			}
 		}
 	}
 
