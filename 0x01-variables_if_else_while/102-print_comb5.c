@@ -6,16 +6,23 @@
  */
 int main(void)
 {
-	int lower;
+	int lower, num2;
 
-	for (lower = 0; lower < 100; lower++)
+	for (lower = 0; lower <= 98; lower++)
 	{
-		putchar((lower / 10) + '0');
-		putchar((lower % 10) + '0');
-		if (lower != 99)
+		for (num2 = lower + 1; num2 <= 99; num2++)
 		{
-			putchar(',');
+			putchar((lower / 10) + '0');
+			putchar((lower % 10) + '0');
 			putchar(' ');
+			putchar((num2 / 10) + '0');
+			putchar((num2 % 10) + '0');
+		
+			if (lower != 99 && num2 != 98)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
