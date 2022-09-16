@@ -5,10 +5,10 @@
  * main - check the code
  * @a: first number.
  * @b: second number.
- * Return: Always 0.
+ * Return: Multiplication
  */
 
 int mul(int a, int b)
 {
-	return(a * b);
+	return (a * b);
 }
