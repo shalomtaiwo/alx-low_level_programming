@@ -12,7 +12,7 @@ int main(void)
 
 	for (c = 0; c < 100; c++)
 	{
-		c++;
+		printf("%d", c);
 		if (c % 3 == 0 && c % 15 != 0)
 		{
 			printf(" Fizz");
