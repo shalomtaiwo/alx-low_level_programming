@@ -8,7 +8,7 @@
 
 void print_number(int n)
 {
-	short  int m, d, count;
+	unsigned  int m, d, count;
 
 	if (n < 0)
 	{
@@ -26,7 +26,7 @@ void print_number(int n)
 	while (d > 9)
 	{
 		d /= 10;
-		 count *= 10;
+		count *= 10;
 	}
 
 	for (; count >= 1; count /= 10)
