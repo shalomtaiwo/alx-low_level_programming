@@ -11,10 +11,10 @@ int main(void)
 	int c;
 
 	c = 0;
-	while(c < 100)
+	while (c < 100)
 	{
 		c++;
-		if(c % 3 == 0 && c % 15 != 0)
+		if (c % 3 == 0 && c % 15 != 0)
 		{
 			printf("Fizz ");
 		}

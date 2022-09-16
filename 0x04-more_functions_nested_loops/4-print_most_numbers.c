@@ -1,16 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_most_numbers - prints numbers between 0 to 9
+ * (neither 2 nor 4).
+ * Return: no return
  */
-
-int main(void)
-{
-	print_most_numbers();
-	return (0);
-}
 
 void print_most_numbers(void)
 {
@@ -18,7 +12,7 @@ void print_most_numbers(void)
 
 	for (c = 0; c < 10; c++)
 	{
-		if(c == 2 || c == 4 )
+		if (c == 2 || c == 4 )
 			continue;
 
 		putchar((c % 10) + '0');
