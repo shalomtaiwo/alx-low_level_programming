@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_line - prints straight line n times.
  * @n: times straight line is printed.
- * Return: Always 0.
+ * Return: no return.
  */
 
 void print_line(int n)
