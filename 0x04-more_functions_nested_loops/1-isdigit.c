@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ *  _isdigit - checks if parameter is a number between 0 to 9.
  * @c: input number.
  * Return: Always 0.
  */
