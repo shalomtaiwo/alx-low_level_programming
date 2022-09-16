@@ -15,19 +15,19 @@ int main(void)
 		c++;
 		if (c % 3 == 0 && c % 15 != 0)
 		{
-			printf("Fizz ");
+			printf(" Fizz");
 		}
 		else if (c % 5 == 0 && c % 15 != 0)
 		{
-			printf("Buzz ");
+			printf(" Buzz");
 		}
 		else if (c % 15 == 0)
 		{
-			printf("FizzBuzz ");
+			printf(" FizzBuzz");
 		}
 		else
 		{
-			printf("%d ", c);
+			printf(" %d", c);
 		}
 	}
 	printf("\n");
