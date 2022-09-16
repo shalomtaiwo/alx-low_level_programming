@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- *
+ * @c: input number.
  * Return: Always 0.
  */
 

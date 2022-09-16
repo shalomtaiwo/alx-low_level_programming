@@ -10,8 +10,7 @@ int main(void)
 {
 	int c;
 
-	c = 0;
-	while (c < 100)
+	for (c = 0; c < 100; c++)
 	{
 		c++;
 		if (c % 3 == 0 && c % 15 != 0)

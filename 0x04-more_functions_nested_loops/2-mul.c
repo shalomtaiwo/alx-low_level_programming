@@ -3,7 +3,8 @@
 
 /**
  * main - check the code
- *
+ * @a: first number.
+ * @b: second number.
  * Return: Always 0.
  */
 

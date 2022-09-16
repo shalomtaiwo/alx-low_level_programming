@@ -8,12 +8,12 @@
 
 void print_numbers(void)
 {
-	int lower;
+	int ch;
 
-	for (lower = 0; lower < 10; lower++)
+	for (ch = 48; ch < 58; ch++)
 	{
-		putchar((lower % 10) + '0');
+		_putchar(ch);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
